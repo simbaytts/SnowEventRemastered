@@ -1,0 +1,32 @@
+#
+#
+
+# Сообщения
+messages:
+  message: '&x&1&8&f&b&d&9&lSnowEvent &7» &fВы заработали %randomcolor%$%money% &fвалюты!'
+  actionbar: '&x&1&8&f&b&d&9&lSnowEvent &7» &fВы заработали &e$%money% &fвалюты!'
+  join: "&x&1&8&f&b&d&9&lSnowEvent &7» &aВы вступили в работу. Добывайте снег и получайте деньги."
+  working: "&x&1&8&f&b&d&9&lSnowEvent &7» &eВы уже работаете."
+  leave: "&x&1&8&f&b&d&9&lSnowEvent &7» &cВы уволились с работы!"
+  leaved: "&x&1&8&f&b&d&9&lSnowEvent &7» &eВы и так не работаете тут."
+
+# Выкл.Вкл сообщения
+enable:
+  message: true
+  actionbar: true
+
+# Сумма которая будет начислена игроку после ломания снега
+currency:
+  reward_amount: 5
+# Респавн даёт возможность возвращать блоки снега который сломал игрок спустя delay_seconds
+respawn:
+  enabled: true
+  delay_seconds: 5 # В секундах
+
+# Регион в котором будет работать плагин
+worldguard:
+  region: snow # Название региона
+
+# Настройка звука при ломании блок снега
+sounds:
+  Sound: BLOCK_NOTE_BLOCK_BELL

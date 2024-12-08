@@ -1,0 +1,12 @@
+name: SnowEvent
+version: '1.0-RW'
+main: surc.simbay.snoweventremastered.SnowEventRemastered
+api-version: '1.16'
+load: STARTUP
+authors: [SIMBAY]
+website: dsc.gg/demongrief
+commands:
+  snowevent:
+    description: Manage SnowJob plugin
+    usage: Используйте /snowevent help
+    aliases: [se,snowe]
